@@ -1,11 +1,11 @@
 ﻿body {
   margin:0px;
   background-image:none;
-  position:relative;
-  left:-83px;
-  width:1158px;
-  margin-left:auto;
-  margin-right:auto;
+  position:static;
+  left:auto;
+  width:1920px;
+  margin-left:0;
+  margin-right:0;
   text-align:left;
 }
 .form_sketch {
@@ -21,16 +21,16 @@
   position:absolute;
   left:0px;
   top:0px;
-  width:1158px;
-  height:673px;
+  width:1920px;
+  height:1080px;
 }
 #u0 {
   border-width:0px;
   position:absolute;
-  left:83px;
-  top:82px;
-  width:1158px;
-  height:673px;
+  left:0px;
+  top:0px;
+  width:1920px;
+  height:1080px;
   display:flex;
 }
 #u0 .text {
@@ -45,4 +45,14 @@
   word-wrap:break-word;
   text-transform:none;
   visibility:hidden;
+}
+#u1 {
+  border-width:0px;
+  position:absolute;
+  left:1271px;
+  top:602px;
+  width:412px;
+  height:45px;
+  overflow:hidden;
+  background-image:url('../../resources/images/transparent.gif');
 }
